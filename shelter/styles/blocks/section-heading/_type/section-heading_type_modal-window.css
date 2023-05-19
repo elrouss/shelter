@@ -1,0 +1,11 @@
+.section-heading_type_modal-window {
+  color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .section-heading_type_modal-window {
+    font-size: var(--font-size-h3);
+    letter-spacing: var(--letter-spacing-s);
+    text-align: center;
+  }
+}

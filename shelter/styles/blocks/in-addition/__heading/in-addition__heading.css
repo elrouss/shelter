@@ -1,0 +1,9 @@
+.in-addition__heading {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 479px) {
+  .in-addition__heading {
+    margin: 0 auto;
+  }
+}

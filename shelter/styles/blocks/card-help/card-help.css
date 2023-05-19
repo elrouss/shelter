@@ -1,0 +1,34 @@
+.card-help {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .card-help {
+    width: 170px;
+  }
+
+  .card-help:nth-child(8) {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-help {
+    row-gap: 21px;
+
+    width: 130px;
+  }
+
+  .card-help:nth-child(8) {
+    max-width: 170px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .card-help:nth-child(8) {
+    max-width: 135px;
+  }
+}

@@ -1,0 +1,20 @@
+.carousel {
+  grid-area: carousel;
+
+  width: 990px;
+
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1279px) {
+  .carousel {
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel {
+    width: 270px;
+    /* grid-area: slider; */
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper-icons {
+  display: flex;
+  column-gap: 114px;
+  row-gap: 59px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1023px) {
+  .wrapper-icons {
+    column-gap: 0;
+    row-gap: 58px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper-icons {
+    row-gap: calc(31px + (27 + 27 * .7) * (100vw - 320px) / 767);
+
+    margin-top: 42px;
+  }
+}

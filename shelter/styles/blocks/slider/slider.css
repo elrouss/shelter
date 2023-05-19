@@ -1,0 +1,27 @@
+.slider {
+  width: 100%;
+  height: 898px;
+  margin: 59px auto 0;
+
+  position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .slider {
+    height: 1362px;
+    margin-top: calc(30px + (29 + 29 * .7) * (100vw - 768px) / 1279);
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  .slider {
+    height: 1826px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .slider {
+    height: 3682px;
+    margin-top: 42px;
+  }
+}

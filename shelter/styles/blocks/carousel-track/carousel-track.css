@@ -1,0 +1,27 @@
+.carousel-track {
+  display: flex;
+  column-gap: 90px;
+
+  position: relative;
+  left: -1080px;
+
+  width: 100%;
+
+  transition: transform 0.7s ease;
+}
+
+@media screen and (max-width: 1279px) {
+  .carousel-track {
+    column-gap: 40px;
+
+    left: -620px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-track {
+    column-gap: 30px;
+
+    left: -300px;
+  }
+}

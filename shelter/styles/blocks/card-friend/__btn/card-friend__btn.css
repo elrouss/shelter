@@ -1,0 +1,6 @@
+.card-friend__btn {
+  width: 187px;
+
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+}

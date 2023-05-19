@@ -1,0 +1,30 @@
+.modal-window__wrapper-card {
+  display: grid;
+  grid-template-columns: 55.55% 44.45%;
+
+  position: relative;
+
+  width: 900px;
+  min-height: 500px;
+
+  color: var(--color-dark-4xl);
+
+  border-radius: 9px;
+  background-color: var(--color-light-s);
+}
+
+@media screen and (max-width: 1023px) {
+  .modal-window__wrapper-card {
+    width: 630px;
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-window__wrapper-card {
+    grid-template-columns: 1fr;
+
+    width: 240px;
+    min-height: 341px;
+  }
+}

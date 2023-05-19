@@ -1,0 +1,20 @@
+.wrapper-cards-friends {
+  display: grid;
+  grid-template-columns: max-content 82.5% max-content;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper-cards-friends {
+    grid-template-columns: 1fr max-content 80px max-content 1fr;
+    row-gap: 20px;
+    grid-template-areas:
+    'slider slider slider slider slider'
+    '. btn-prev . btn-next .'
+    ;
+  }
+}

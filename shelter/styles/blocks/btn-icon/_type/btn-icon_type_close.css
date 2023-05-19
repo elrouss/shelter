@@ -1,0 +1,13 @@
+.btn-icon_type_close {
+  position: absolute;
+  top: -52px;
+  right: -42px;
+
+  background-image: url(../../../../assets/icons/icon-close.svg);
+}
+
+@media screen and (max-width: 767px) {
+  .btn-icon_type_close {
+    right: -30px;
+  }
+}

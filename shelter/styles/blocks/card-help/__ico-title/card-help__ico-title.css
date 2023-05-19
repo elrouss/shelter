@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+  .card-help__ico-title {
+    font-size: var(--font-size-h5);
+    letter-spacing: var(--letter-spacing-s);
+  }
+}

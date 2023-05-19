@@ -1,0 +1,11 @@
+.btn_size_l {
+  grid-area: btn-link;
+
+  width: 261px;
+}
+
+@media screen and (max-width: 767px) {
+  .btn_size_l {
+    margin-top: 42px;
+  }
+}

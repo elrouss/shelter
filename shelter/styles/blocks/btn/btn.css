@@ -1,0 +1,24 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 52px;
+  padding: 0;
+
+  font-size: var(--font-size-btn);
+  line-height: 130%;
+  letter-spacing: 1px;
+
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 100px;
+  color: var(--color-dark-3xl);
+
+  cursor: url(../../../assets/icons/cursor-pointer.svg), auto;
+  transition: background-color 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-light);
+}

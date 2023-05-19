@@ -1,0 +1,4 @@
+.intro {
+  background: url(../../../assets/images/noise_transparent@2x.png),
+    radial-gradient(100% 215.42% at 0% 0%, var(--gradient-start) 0%, var(--gradient-end) 100%), var(--gradient-addition);
+}

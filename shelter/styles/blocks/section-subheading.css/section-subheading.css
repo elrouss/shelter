@@ -1,0 +1,14 @@
+.section-subheading {
+  font-size: var(--font-size-h4);
+  line-height: var(--font-line-height-h4);
+  letter-spacing: var(--letter-spacing-s);
+
+  margin: 0;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-subheading {
+    text-align: center;
+  }
+}

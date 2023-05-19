@@ -1,0 +1,17 @@
+.slide {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, auto));
+  gap: 30px 40px;
+  justify-items: center;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: visibility 0.9s ease, opacity 0.9s ease;
+}

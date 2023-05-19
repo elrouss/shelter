@@ -1,0 +1,13 @@
+.btn-slider_direction_prev {
+  grid-area: btn-prev;
+
+  background-image: url(../../../../assets/icons/slider-arr-prev.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* @media screen and (max-width: 767px) {
+  .btn-slider_direction_prev {
+    grid-area: btn-prev;
+  }
+} */

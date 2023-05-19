@@ -1,0 +1,13 @@
+.our-friends__heading {
+  grid-area: heading;
+
+  max-width: 433px;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .our-friends__heading {
+    max-width: 300px;
+  }
+}

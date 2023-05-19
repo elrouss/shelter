@@ -1,0 +1,24 @@
+.hamburger {
+  display: none;
+
+  position: relative;
+  z-index: 1000;
+
+  width: 30px;
+  height: 22px;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: url(../../../assets/icons/cursor-pointer_light.svg), pointer;
+  transition: transform 0.3s ease-in;
+}
+
+@media screen and (max-width: 767px) {
+  .hamburger {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

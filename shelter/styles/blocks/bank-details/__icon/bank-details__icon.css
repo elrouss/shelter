@@ -1,0 +1,8 @@
+.bank-details__icon {
+  width: 30px;
+  height: 23px;
+
+  background-image: url(../../../../assets/icons/credit-card.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

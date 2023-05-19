@@ -1,0 +1,10 @@
+.heading-bold {
+  display: inline;
+
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+
+  margin: 0;
+}

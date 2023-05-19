@@ -1,0 +1,25 @@
+.our-friends__slider-btns {
+  display: flex;
+  justify-content: space-between;
+
+  width: 340px;
+  margin: 60px auto 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .our-friends__slider-btns {
+    margin-top: calc(42px + (18 + 18 * .7) * (100vw - 768px) / 1279);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-friends__slider-btns {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .our-friends__slider-btns {
+    width: 300px;
+  }
+}

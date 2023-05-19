@@ -1,0 +1,19 @@
+.in-addition__text-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  max-width: 380px;
+}
+
+@media screen and (max-width: 1023px) {
+  .in-addition__text-block {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .in-addition__text-block {
+    row-gap: 23px;
+  }
+}

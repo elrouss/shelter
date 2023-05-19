@@ -1,0 +1,14 @@
+.nav__link_theme_dark {
+  color: var(--color-dark-l);
+
+  cursor: url(../../../../../assets/icons/cursor-pointer.svg), pointer;
+}
+
+.nav__link_theme_dark:active {
+  color: var(--color-dark-l);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.nav__link_theme_dark:hover {
+  color: var(--color-dark-3xl);
+}

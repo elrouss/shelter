@@ -1,0 +1,37 @@
+@keyframes transition-right {
+  from {
+    left: -1080px;
+  }
+
+  to {
+    left: -2160px;
+  }
+}
+
+.carousel-transition-right {
+  animation: transition-right 1s;
+}
+
+@media screen and (max-width: 1279px) {
+  @keyframes transition-right {
+    from {
+      left: -620px;
+    }
+
+    to {
+      left: -1240px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  @keyframes transition-right {
+    from {
+      left: -300px;
+    }
+
+    to {
+      left: -600px;
+    }
+  }
+}

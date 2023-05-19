@@ -1,0 +1,25 @@
+.card-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 31px;
+
+  width: 270px;
+  padding-bottom: 30px;
+
+  background-color: var(--color-light-s);
+  border-radius: 9px;
+
+  cursor: url(../../../assets/icons/cursor-pointer.svg), auto;
+  transition: all 0.3s ease-in;
+}
+
+.card-friend:hover {
+  background-color: var(--color-light-xl);
+  filter: drop-shadow(0 2px 35px rgba(13, 13, 13, 0.04));
+}
+
+.card-friend:hover > .card-friend__btn {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}

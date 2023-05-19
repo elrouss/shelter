@@ -1,0 +1,24 @@
+.not-only__text-block {
+  grid-area: heading;
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px;
+
+  max-width: 460px;
+}
+
+.not-only__text-block > .btn {
+  cursor: url(../../../../assets/icons/cursor-pointer.svg), auto;
+}
+
+@media screen and (max-width: 767px) {
+  .not-only__text-block {
+    max-width: calc(300px + (160 + 160 * .7) * (100vw - 320px) / 767);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .not-only__text-block {
+    text-align: center;
+  }
+}

@@ -1,0 +1,10 @@
+.card-title {
+  margin: 0;
+
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-regular);
+  line-height: 100%;
+  letter-spacing: var(--letter-spacing-l);
+
+  color: var(--color-dark-l);
+}

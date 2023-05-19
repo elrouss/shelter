@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  cursor: url(../../../assets/icons/cursor-arrow_light.svg), auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    margin-left: calc(30px + (10 + 10 * .7) * (100vw - 768px) / 1279);
+    margin-right: calc(30px + (10 + 10 * .7) * (100vw - 768px) / 1279);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin-left: calc(20px + (10 + 10 * .7) * (100vw - 320px) / 767);
+    margin-right: calc(20px + (10 + 10 * .7) * (100vw - 320px) / 767);
+  }
+}

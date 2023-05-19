@@ -1,0 +1,9 @@
+.hamburger-menu-wrapper__nav-links {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+
+  max-width: 243px;
+
+  font-size: var(--font-size-hamburger-menu);
+}

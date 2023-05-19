@@ -1,0 +1,42 @@
+.btn-icon {
+  align-self: center;
+
+  width: 52px;
+  height: 52px;
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+
+  cursor: url(../../../assets/icons/cursor-pointer.svg), auto;
+  transition: all 0.3s ease-in;
+}
+
+.btn-icon:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.btn-icon > svg > path {
+  fill: var(--color-dark-3xl);
+
+  transition: fill 0.3s ease-in;
+}
+
+.btn-icon:disabled {
+  border-color: var(--color-dark-s);
+
+  cursor: url(../../../assets/icons/cursor-arror.svg), default;
+}
+
+.btn-icon:disabled > svg > path {
+  fill: var(--color-dark-s);
+}
+
+.btn-icon:disabled:hover {
+  background-color: transparent;
+}

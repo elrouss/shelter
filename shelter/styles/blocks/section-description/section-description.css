@@ -1,0 +1,22 @@
+.section-description {
+  font-size: var(--font-size-h5);
+  line-height: var(--font-line-height-h5);
+  letter-spacing: var(--letter-spacing-s);
+
+  margin: 0;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .section-description {
+    font-size: var(--font-size-p-m);
+    line-height: var(--font-line-height-p-m);
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-description {
+    text-align: justify;
+  }
+}

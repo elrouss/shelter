@@ -1,0 +1,11 @@
+.logo__subtitle {
+  margin: 0;
+  padding-left: 4px;
+
+  font-family: 'Arial';
+  font-size: 13px;
+  line-height: calc(15 / 13 * 100%);
+  letter-spacing: var(--letter-spacing-l);
+
+  color: var(--color-light-xl);
+}

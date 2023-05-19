@@ -1,0 +1,22 @@
+.nav__link {
+  margin: 0;
+
+  font-family: 'Arial';
+  font-size: inherit;
+  line-height: var(--font-line-height-p-l);
+  color: var(--color-dark-s);
+
+  cursor: url(../../../../assets/icons/cursor-pointer_light.svg), pointer;
+  transition: color 0.3s ease-in, border-bottom 0.08s ease-in;
+}
+
+.nav__link:active {
+  padding-bottom: 4px;
+
+  color: var(--color-light-s);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.nav__link:hover {
+  color: var(--color-light-s);
+}

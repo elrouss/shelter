@@ -1,0 +1,12 @@
+.carousel-slide {
+  display: flex;
+  column-gap: 90px;
+
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .carousel-slide {
+    column-gap: 40px;
+  }
+}

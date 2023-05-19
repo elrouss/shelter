@@ -1,0 +1,11 @@
+.help__heading {
+  max-width: 333px;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .help__heading {
+    max-width: calc(270px + (63 + 63 * .7) * (100vw - 320px) / 767);
+  }
+}

@@ -1,0 +1,16 @@
+.requisites {
+  margin: 0;
+
+  font-family: 'Arial';
+  font-style: italic;
+  font-size: var(--font-size-p-s);
+  line-height: 146%;
+  color: var(--color-dark-m);
+}
+
+@media screen and (max-width: 479px) {
+  .requisites {
+    text-align: justify;
+    padding: 0 10px;
+  }
+}

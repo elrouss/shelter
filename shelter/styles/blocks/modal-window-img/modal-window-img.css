@@ -1,0 +1,13 @@
+.modal-window-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 9px;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-window-img {
+    display: none;
+  }
+}

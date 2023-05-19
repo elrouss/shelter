@@ -1,0 +1,17 @@
+.in-addition__subtitle {
+  margin: 0;
+
+  font-size: var(--font-size-h5);
+  line-height: var(--font-line-height-h5);
+  letter-spacing: var(--letter-spacing-s);
+  color: var(--color-dark-l);
+}
+
+@media screen and (max-width: 479px) {
+  .in-addition__subtitle {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 13.3px;
+  }
+}

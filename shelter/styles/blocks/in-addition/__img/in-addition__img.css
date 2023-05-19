@@ -1,0 +1,19 @@
+.in-addition__img {
+  max-width: 505px;
+  max-height: 261px;
+  margin-top: 13px;
+}
+
+@media screen and (max-width: 1023px) {
+  .in-addition__img {
+    order: 2;
+
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .in-addition__img {
+    max-width: calc(260px + (245 + 245 * .7) * (100vw - 320px) / 767);
+  }
+}

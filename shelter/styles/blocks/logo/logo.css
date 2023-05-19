@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  max-width: 186px;
+
+  cursor: url(../../../assets/icons/cursor-pointer_light.svg), pointer;
+}
+
+.logo:hover .logo__title {
+  color: var(--color-primary-light);
+}
+
+.logo:hover .logo__title_theme_dark {
+  color: var(--color-dark-3xl);
+}

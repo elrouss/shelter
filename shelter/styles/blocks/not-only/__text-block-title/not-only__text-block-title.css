@@ -1,0 +1,25 @@
+.not-only__text-block-title {
+  max-width: 310px;
+  margin: 0;
+
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-line-height-h2);
+  color: var(--color-light-xl);
+}
+
+@media screen and (max-width: 767px) {
+  .not-only__text-block-title {
+    font-size: var(--font-size-h2-tablet-and-mobile);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .not-only__text-block-title {
+    align-self: center;
+
+    max-width: 250px;
+
+    letter-spacing: var(--letter-spacing-s);
+  }
+}

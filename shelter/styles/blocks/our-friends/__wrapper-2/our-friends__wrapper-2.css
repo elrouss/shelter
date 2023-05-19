@@ -1,0 +1,26 @@
+.our-friends__wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0 102px;
+}
+
+@media screen and (max-width: 1279px) {
+  .our-friends__wrapper-2 {
+    margin-left: calc(94px + (-54 - 54 * .7) * (100vw - 768px) / 1279);
+    margin-right: calc(94px + (-54 - 54 * .7) * (100vw - 768px) / 1279);
+    padding-bottom: calc(77px + (25 + 25 * .7) * (100vw - 768px) / 1279);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-friends__wrapper-2 {
+    margin-left: calc(10px + (84 + 84 * .7) * (100vw - 320px) / 767);
+    margin-right: calc(10px + (84 + 84 * .7) * (100vw - 320px) / 767);
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+}

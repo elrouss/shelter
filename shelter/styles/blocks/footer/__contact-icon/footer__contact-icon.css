@@ -1,0 +1,7 @@
+.footer__contact-icon {
+  width: 42px;
+  height: 32px;
+
+  background-image: url(../../../../assets/icons/icon-marker.svg);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,10 @@
+.section-quality {
+  display: list-item;
+}
+
+.section-quality::marker {
+  width: 4px;
+  height: 4px;
+
+  color: var(--color-primary);
+}

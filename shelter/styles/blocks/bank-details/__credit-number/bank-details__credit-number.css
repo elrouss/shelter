@@ -1,0 +1,15 @@
+.bank-details__credit-number {
+  margin: 0;
+
+  font-size: var(--font-size-h4);
+  line-height: var(--font-line-height-h4);
+  letter-spacing: var(--letter-spacing-s);
+
+  color: var(--color-dark-l);
+}
+
+@media screen and (max-width: 767px) {
+  .bank-details__credit-number {
+    font-size: var(--font-size-h4-tablet-and-mobile);
+  }
+}

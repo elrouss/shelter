@@ -1,0 +1,8 @@
+.body {
+  font-family: 'Georgia', 'Arial', 'Helvetica', sans-serif;
+  font-weight: var(--font-weight-regular);
+
+  background-color: var(--color-light-xl);
+
+  cursor: url(../../../assets/icons/cursor-arror.svg), auto;
+}

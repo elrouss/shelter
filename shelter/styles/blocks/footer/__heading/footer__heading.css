@@ -1,0 +1,5 @@
+.footer__heading {
+  letter-spacing: 2px;
+
+  color: var(--color-light-xl);
+}

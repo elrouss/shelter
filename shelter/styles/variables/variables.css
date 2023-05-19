@@ -1,0 +1,53 @@
+:root {
+  /* COLOR */
+  --color-primary: #F1CDB3;
+  --color-primary-light: #FDDCC4;
+
+  --color-light-xl: #FFFFFF;
+  --color-light-l: #F6F6F6;
+  --color-light-s: #FAFAFA;
+
+  --color-dark-4xl: #000000;
+  --color-dark-3xl: #292929;
+  --color-dark-2xl: #444444;
+  --color-dark-xl: #4C4C4C;
+  --color-dark-l: #545454;
+  --color-dark-m: #B2B2B2;
+  --color-dark-s: #CDCDCD;
+
+  --gradient-start: #5B483A;
+  --gradient-end: #262425;
+  --gradient-addition: #211F20;
+
+  --color-background-modal-window: rgba(41, 41, 41, 0.6);
+
+  /* TYPOGRAPHY */
+  --font-family-secondary: 'Arial';
+
+  --font-size-h2: 4.4rem;
+  --font-size-h2-tablet-and-mobile: calc(2.5rem + (19 + 19 * .7) * (100vw - 320px) / 767);
+  --font-size-h3: 3.5rem;
+  --font-size-h3-tablet-and-mobile: calc(2.5rem + (10 + 10 * .7) * (100vw - 320px) / 767);
+  --font-size-h4: 2rem;
+  --font-size-h4-tablet-and-mobile: calc(1.5rem + (5 + 5 * .7) * (100vw - 320px) / 767);
+  --font-size-h5: 1.5rem;
+  --font-size-p-l: var(--font-size-h5);
+  --font-size-p-m: 1.3rem;
+  --font-size-p-s: 1.2rem;
+  --font-size-btn: 1.7rem;
+
+  --font-size-hamburger-menu: 3.2rem;
+
+  --font-line-height-h2: 130%;
+  --font-line-height-h3: var(--font-line-height-h2);
+  --font-line-height-h4: 115%;
+  --font-line-height-h5: 110%;
+  --font-line-height-p-l: 160%;
+  --font-line-height-p-m: 1.43rem;
+  --font-line-height-p-s: 150%;
+
+  --font-weight-regular: 400;
+
+  --letter-spacing-l: 0.1em;
+  --letter-spacing-s: 0.06em;
+}

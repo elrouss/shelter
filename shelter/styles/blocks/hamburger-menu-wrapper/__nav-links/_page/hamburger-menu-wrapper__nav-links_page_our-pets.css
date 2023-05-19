@@ -1,0 +1,28 @@
+.hamburger-menu-wrapper__nav-links_page_our-pets > li:first-child > .nav__link {
+  color: var(--color-dark-s);
+  border-bottom: none;
+}
+
+.hamburger-menu-wrapper__nav-links_page_our-pets > li:nth-child(2) > .nav__link {
+  color: var(--color-light-s);
+  border-bottom: none;
+}
+
+.hamburger-menu-wrapper__nav-links_page_our-pets > li:first-child > .nav__link::after {
+  display: none;
+}
+
+.hamburger-menu-wrapper__nav-links_page_our-pets > li:first-child > .nav__link:active {
+  padding-bottom: 4px;
+
+  color: var(--color-dark-l);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.hamburger-menu-wrapper__nav-links_page_our-pets > li:nth-child(2) > .nav__link::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-primary);
+}

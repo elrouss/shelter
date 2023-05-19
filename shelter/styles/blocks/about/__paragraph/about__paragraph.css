@@ -1,0 +1,9 @@
+.about__paragraph {
+  color: var(--color-dark-xl);
+}
+
+@media screen and (max-width: 479px) {
+  .about__paragraph {
+    text-align: justify;
+  }
+}

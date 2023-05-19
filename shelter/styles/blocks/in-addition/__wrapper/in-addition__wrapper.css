@@ -1,0 +1,28 @@
+.in-addition__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 914px;
+  margin: 0 auto;
+  padding: 80px 0 100px;
+}
+
+@media screen and (max-width: 1023px) {
+  .in-addition__wrapper {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+
+    max-width: 505px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .in-addition__wrapper {
+    row-gap: 43px;
+
+    max-width: calc(300px + (205 + 205 * .7) * (100vw - 320px) / 767);
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+}

@@ -1,0 +1,18 @@
+.modal-window-description {
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px 20px 89px 29px;
+}
+
+@media screen and (max-width: 1023px) {
+  .modal-window-description {
+    padding: 10px 10px 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-window-description {
+    padding-bottom: 10px;
+  }
+}

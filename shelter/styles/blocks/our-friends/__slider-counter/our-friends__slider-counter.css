@@ -1,0 +1,17 @@
+.our-friends__slider-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 52px;
+  height: 52px;
+  margin: 0;
+  padding: 0;
+
+  font-size: var(--font-size-h4);
+  line-height: var(--font-line-height-h4);
+  color: var(--color-dark-3xl);
+
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}

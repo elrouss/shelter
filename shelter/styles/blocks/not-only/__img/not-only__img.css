@@ -1,0 +1,18 @@
+.not-only__img {
+  grid-area: img;
+  place-self: end;
+
+  max-width: 698px;
+}
+
+@media screen and (max-width: 1279px) {
+  .not-only__img {
+    max-width: calc(569px + (129 + 129 * .7) * (100vw - 768px) / 1279);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .not-only__img {
+    max-width: calc(260px + (309 + 309 * .7) * (100vw - 320px) / 767);
+  }
+}

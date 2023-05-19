@@ -1,0 +1,27 @@
+.footer__contacts-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 740px;
+  padding-top: 17px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__contacts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 38px;
+
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts-wrapper {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 40px;
+    justify-items: center;
+  }
+}

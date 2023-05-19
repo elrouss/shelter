@@ -1,0 +1,26 @@
+.bank-details {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+
+  max-width: 320px;
+  padding: 10px 15px;
+
+  background-color: var(--color-primary);
+  border-radius: 9px;
+
+  cursor: url(../../../assets/icons/cursor-pointer.svg), pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.bank-details:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-dark-3xl);
+}
+
+@media screen and (max-width: 479px) {
+  .bank-details {
+    margin: 0 auto;
+  }
+}

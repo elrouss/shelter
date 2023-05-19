@@ -1,0 +1,8 @@
+.paragraph {
+  margin: 0;
+
+  font-family: Arial;
+  font-size: var(--font-size-p-l);
+  line-height: var(--font-line-height-p-l);
+  color: var(--color-dark-s);
+}

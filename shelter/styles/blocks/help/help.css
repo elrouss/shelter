@@ -1,0 +1,16 @@
+.help {
+  padding: 80px 0 100px;
+}
+
+@media screen and (max-width: 1023px) {
+  .help {
+    padding-bottom: 104px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .help {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+}

@@ -1,0 +1,172 @@
+/* GENERAL */
+@import url(../assets/vendors/normalize.css);
+@import url(../styles/variables/variables.css);
+
+/* HTML */
+@import url(./blocks/html/html.css);
+
+/* BODY */
+@import url(./blocks/body/body.css);
+@import url(./blocks/body/_opened/body_opened.css);
+
+/* INTRO */
+@import url(./blocks/intro/intro.css);
+
+/* HEADER */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/_page/header_page_our-pets.css);
+
+/* LOGO */
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/_theme/logo_theme_light.css);
+@import url(./blocks/logo/__title/logo__title.css);
+@import url(./blocks/logo/__title/_theme/logo__title_theme_dark.css);
+@import url(./blocks/logo/__subtitle/logo__subtitle.css);
+@import url(./blocks/logo/__subtitle/_theme/logo__subtitle_theme_dark.css);
+
+/*HAMBURGER */
+@import url(./blocks/hamburger/hamburger.css);
+@import url(./blocks/hamburger/_opened/hamburger_opened.css);
+@import url(./blocks/hamburger/__line/hamburger__line.css);
+@import url(./blocks/hamburger/__line/_theme/hamburger__line_theme_dark.css);
+@import url(./blocks/hamburger/__line/_theme/hamburger__line_theme_dark-opened.css);
+
+/* TABLE */
+@import url(./blocks/table/table.css);
+
+/* NAV */
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/nav/__links/nav__links.css);
+@import url(./blocks/nav/__links/_page/nav__links_page_our-pets.css);
+@import url(./blocks/nav/__link/nav__link.css);
+@import url(./blocks/nav/__link/_theme/nav__link_theme_dark.css);
+
+/* LINK */
+@import url(./blocks/link/link.css);
+
+/* NOT-ONLY */
+@import url(./blocks/not-only/not-only.css);
+@import url(./blocks/not-only/__wrapper/not-only__wrapper.css);
+@import url(./blocks/not-only/__text-block/not-only__text-block.css);
+@import url(./blocks/not-only/__text-block-title/not-only__text-block-title.css);
+@import url(./blocks/not-only/__btn/not-only__btn.css);
+@import url(./blocks/not-only/__img/not-only__img.css);
+
+/* BUTTON */
+@import url(./blocks/btn/btn.css);
+@import url(./blocks/btn/_size/btn_size_l.css);
+@import url(./blocks/btn/_size/btn_size_m.css);
+
+/* PARAGRAPH */
+@import url(./blocks/paragraph/paragraph.css);
+
+/* ABOUT */
+@import url(./blocks/about/__heading/about__heading.css);
+@import url(./blocks/about/__wrapper/about__wrapper.css);
+@import url(./blocks/about/__img/about__img.css);
+@import url(./blocks/about/__text-block/about__text-block.css);
+@import url(./blocks/about/__paragraph/about__paragraph.css);
+
+/* SECTION ELEMENTS */
+@import url(./blocks/section-heading/section-heading.css);
+@import url(./blocks/section-heading/_type/section-heading_type_modal-window.css);
+@import url(./blocks/section-subheading.css/section-subheading.css);
+@import url(./blocks/section-description/section-description.css);
+@import url(./blocks/section-qualities/section-qualities.css);
+@import url(./blocks/section-quality/section-quality.css);
+
+/* OUR FRIENDS */
+@import url(./blocks/our-friends/our-friends.css);
+@import url(./blocks/our-friends/__wrapper/our-friends__wrapper.css);
+@import url(./blocks/our-friends/__wrapper-2/our-friends__wrapper-2.css);
+@import url(./blocks/our-friends/__heading/our-friends__heading.css);
+@import url(./blocks/wrapper-cards-friends/wrapper-cards-friends.css);
+@import url(./blocks/our-friends/__slider-btns/our-friends__slider-btns.css);
+@import url(./blocks/our-friends/__slider-counter/our-friends__slider-counter.css);
+
+/* CARD-FRIEND */
+@import url(./blocks/card-friend/card-friend.css);
+@import url(./blocks/card-friend/__img/card-friend__img.css);
+@import url(./blocks/card-friend/__btn/card-friend__btn.css);
+
+/* CARD-TITLE */
+@import url(./blocks/card-title/card-title.css);
+
+/* BUTTONS */
+@import url(./blocks/btn-icon/btn-icon.css);
+@import url(./blocks/btn-icon/_type/btn-icon_type_close.css);
+@import url(./blocks/btn-slider/_direction/btn-slider_direction_next.css);
+@import url(./blocks/btn-slider/_direction/btn-slider_direction_prev.css);
+
+/* SECTION HELP */
+@import url(./blocks/help/help.css);
+@import url(./blocks/help/__wrapper/help__wrapper.css);
+@import url(./blocks/help/__heading/help__heading.css);
+
+/* GALLERY WITH ICONS */
+@import url(./blocks/wrapper-icons/wrapper-icons.css);
+
+/* CARDS */
+@import url(./blocks/card-help/card-help.css);
+@import url(./blocks/card-help/__img/card-help__img.css);
+@import url(./blocks/card-help/__ico-title/card-help__ico-title.css);
+
+@import url(./blocks/carousel-card-1/carousel-card-1.css);
+
+/* SECTION IN-ADDITION */
+@import url(./blocks/in-addition/in-addition.css);
+@import url(./blocks/in-addition/__wrapper/in-addition__wrapper.css);
+@import url(./blocks/in-addition/__text-block/in-addition__text-block.css);
+@import url(./blocks/in-addition/__heading/in-addition__heading.css);
+@import url(./blocks/in-addition/__subtitle/in-addition__subtitle.css);
+@import url(./blocks/in-addition/__img/in-addition__img.css);
+
+/* BLOCK BANK-DETAILS */
+@import url(./blocks/bank-details/bank-details.css);
+@import url(./blocks/bank-details/__icon/bank-details__icon.css);
+@import url(./blocks/bank-details/__credit-number/bank-details__credit-number.css);
+
+/* BLOCK REQUISITES */
+@import url(./blocks/requisites/requisites.css);
+
+/* FOOTER */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__heading/footer__heading.css);
+@import url(./blocks/footer/__wrapper/footer__wrapper.css);
+@import url(./blocks/footer/__contacts-wrapper/footer__contacts-wrapper.css);
+@import url(./blocks/footer/__contacts/footer__contacts.css);
+@import url(./blocks/footer/__contact/footer__contact.css);
+@import url(./blocks/footer/__contact-icon/footer__contact-icon.css);
+@import url(./blocks/footer/__icon-email/footer__icon-email.css);
+@import url(./blocks/footer/__icon-phone/footer__icon-phone.css);
+@import url(./blocks/footer/__contact-data/footer__contact-data.css);
+@import url(./blocks/footer/__img/footer__img.css);
+
+/* SLIDER */
+@import url(./blocks/slider/slider.css);
+@import url(./blocks/slide/slide.css);
+@import url(./blocks/slide/_visible/slide_visible.css);
+
+/* CAROUSEL */
+@import url(./blocks/carousel/carousel.css);
+@import url(./blocks/carousel-track/carousel-track.css);
+@import url(./blocks/carousel-slide/carousel-slide.css);
+@import url(./blocks/carousel-transition-right/carousel-transition-right.css);
+@import url(./blocks/carousel-transition-left/carousel-transition-left.css);
+
+/* MODAL WINDOWS */
+@import url(./blocks/modal-window/modal-window.css);
+@import url(./blocks/modal-window/_type/modal-window_type_card.css);
+@import url(./blocks/modal-window/_opened/modal-window_opened.css);
+@import url(./blocks/modal-window/__wrapper-card/modal-window__wrapper-card.css);
+
+@import url(./blocks/modal-window-img/modal-window-img.css);
+@import url(./blocks/modal-window-description/modal-window-description.css);
+
+@import url(./blocks/hamburger-menu-wrapper/hamburger-menu-wrapper.css);
+@import url(./blocks/hamburger-menu-wrapper/_opened/hamburger-menu-wrapper_opened.css);
+@import url(./blocks/hamburger-menu-wrapper/__nav/hamburger-menu-wrapper__nav.css);
+@import url(./blocks/hamburger-menu-wrapper/__nav-links/hamburger-menu-wrapper__nav-links.css);
+@import url(./blocks/hamburger-menu-wrapper/__nav-links/_page/hamburger-menu-wrapper__nav-links_page_our-pets.css);
+
+@import url(./blocks/heading-bold/heading-bold.css);
